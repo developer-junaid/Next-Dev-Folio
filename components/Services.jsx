@@ -4,17 +4,15 @@ import { Card } from "./Card";
 
 // Icons
 import frontendImage from "../assets/images/frontend.svg";
-import backendImage from "../assets/images/web-programming-white.svg";
+import backendImage from "../assets/images/web-programming.svg";
 import fullstackImage from "../assets/images/fullstack.svg";
 import excelImage from "../assets/images/excel.svg";
+import { Heading } from "./Heading";
 
 export const Services = () => {
   return (
-    <div className="w-full bg-gray-50">
-      <h1 className="text-black font-medium text-center text-3xl mb-24">
-        Services
-      </h1>
-
+    <div className="section">
+      <Heading text="Services" />
       <div className="w-full h-auto">
         <Card
           title="Frontend Development"
